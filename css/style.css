@@ -1,9 +1,11 @@
 * {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: white;
 }
 
 div {
-  background-color: grey;
+  background-color: #197e90;
 }
 
 html,
@@ -71,7 +73,16 @@ body {
   display: none;
 }
 
-h1,
 p {
-  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: #4eb7ca;
+  border: none;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: #302e2f;
 }
