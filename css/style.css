@@ -1,0 +1,77 @@
+* {
+  font-family: sans-serif;
+}
+
+div {
+  background-color: grey;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.full-height {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-container > div {
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.round-replay {
+  flex-grow: 1;
+  padding: 0 30px;
+}
+
+.player-selection img {
+  width: 225px;
+}
+
+.player-selection img:hover {
+  transform: scale(1.1);
+}
+
+.replay img {
+  width: 100px;
+}
+
+.computer-image {
+  transform: scaleX(-1);
+}
+
+.vs {
+  align-self: center;
+  padding: 0 30px;
+}
+
+.computer-score,
+.player-score {
+  align-self: flex-end;
+}
+
+.hidden {
+  display: none;
+}
+
+h1,
+p {
+  text-align: center;
+}
